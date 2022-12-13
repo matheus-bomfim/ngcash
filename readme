@@ -1,0 +1,17 @@
+Projeto FullStack Proposto para a fase de testes do Banco Ng.Cash
+
+Como rodar a aplicação:
+
+Para Executar a Aplicação deve se ter instalado o Docker, Docker-Compose e Postgres no seu PC. 
+
+1* Após ter instalado o Docker, executar o comando 'docker-compose up --build'
+
+2* Após inicializado o Docker-Compose, 
+Rodar a Migration em outro terminal com o comando 'docker exec -i -t api yarn typeorm migration:run -d src/data-source.ts'
+
+3* Finalizado os procedimentos acima, as aplicações se encontram em 
+    FrontEnd: localhost:3000
+    Backend: localhost:8080
+
+
+ps: Acompanha Um JsonInsomnia para Testar as Principais Rotas.
